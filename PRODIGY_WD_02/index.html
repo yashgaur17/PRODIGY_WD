@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="topbar">
+      <h1 class="title">Stopwatch</h1>
+      <div class="actions">
+        <button id="save" aria-label="Save history">💾</button>
+        <button id="menu" aria-label="More options">⋮</button>
+      </div>
+    </header>
+
+    <section class="display">
+      <div id="mainTime" class="time large">00:00.00</div>
+      <div id="splitTime" class="time small">00:00.00</div>
+    </section>
+
+    <section class="laps">
+      <div class="laps-header">
+        <span>Lap</span>
+        <span>Lap time</span>
+        <span>Overall time</span>
+      </div>
+      <ul id="lapList" class="lap-list"></ul>
+    </section>
+
+    <section class="controls">
+      <button id="reset" class="btn ghost">Reset</button>
+      <button id="startPause" class="btn primary">Start</button>
+      <button id="lap" class="btn accent">Lap</button>
+    </section>
+
+    <section class="history">
+      <h2>History</h2>
+      <ul id="historyList" class="history-list"></ul>
+      <button id="clearHistory" class="btn ghost">Clear history</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  color: #333;
+  text-align: center;
+  padding: 40px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+button {
+  cursor: pointer;
+  background: #4A90E2;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background: #357ABD;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
